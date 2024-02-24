@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="/pages/loginpage/main.css">
+    <title>login</title>
+</head>
+<body> 
+    <div class="banner">
+        <img src="/images/loginpage/graphiceralogo.png" alt="">
+    </div> 
+    
+<div class="box1">  
+    <div id="notify"></div>
+    <div class="inputtags">
+        <input id="studentid" type="number" pattern="[0-9]" placeholder="Student ID">  
+        <div></div> 
+        <br>
+        <input id="pasward" type="password" placeholder="Pasward">  
+        
+        <div class="loginbutton" > 
+            <button id="signup" onclick="signup()">SignUp</button>
+            
+            <button id="login" onclick="login()">Login</button>
+
+           </div>
+    </div>
+   
+   
+</div>
+
+<script src="/pages/loginpage/main.js"></script>
+</body>
+</html>

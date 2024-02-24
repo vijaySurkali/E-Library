@@ -1,0 +1,174 @@
+
+
+*{
+    margin: 0;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.logo {
+
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 40rem;
+
+}
+
+.box1 {
+    /* background-color: aqua;  */
+    width: 26rem;
+    height: 35rem;
+    margin: 0.8rem auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 3px rgba(234, 233, 233, 0.804);
+
+
+}
+
+.box1 input {
+    padding: 10px;
+    width: 16rem;
+    height: 1.5rem;
+    background-color: #edede9;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.inputtags {
+    position: absolute;
+    padding: 0 3.9rem;
+    width: fit-content;
+}
+
+
+#name {
+    width: 16rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+#S_ID {
+    width: 16rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+#Pass {
+    width: 16rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.box2 {
+    margin-top: 2rem;
+    display: flex;
+}
+
+#course {
+    border-radius: 4px;
+    height: 2.6rem;
+    width: 7rem;
+    text-align: center;
+    padding: 0.3rem 1.2rem;
+    background-color: #edede9;
+}
+
+#Semester {
+    height: 2.6rem;
+    width: 7rem;
+    margin-left: 3rem;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #edede9;
+}
+
+#DOB {
+    width: 16rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+#butt {
+    background-color: #abff4f;
+    text-decoration: none;
+    border: none;
+    width: 6rem;
+    height: 2.6rem;
+    border-radius: 5px;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+h1 {
+    font-style: roboto;
+    font-size: 2rem;
+    font-weight: bold;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+@media(max-width:519px) {
+    .box1 {
+        background-color: aqua;
+        width: 90%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .box1 input {
+        padding: 10px;
+        width: 12rem;
+        height: 1.5rem;
+
+
+    }
+
+    .inputtags {
+        position: relative;
+        padding: 0px;
+        width: fit-content;
+        height: fit-content;
+        display: block;
+        margin: 3rem auto;
+    }
+
+
+}
